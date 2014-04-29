@@ -9,17 +9,18 @@
 
 		.bd{
 			float:left;
+			margin-top: 50px;
 		}
 		.main{
 			float: left;
 			width: 100%;
 		}
 		.main-wrap {        
-			margin-left: 450px;
+			margin-left: 80px;
 		}
 		.sub {        
            float: left;        
-           width: 450px;        
+           width: 80px;        
            margin-left: -100%;  
 		}
 		.hd{
@@ -32,10 +33,12 @@
 		}
 	
 		.box{
-			width: 606px;
-			height : 800px;
-			float:right;
-			background: url("img/background.jpg") no-repeat;
+			height : 514px;
+			width:787px;
+			background: url("img/about/4_03.png") no-repeat;
+			font-size: 12px;
+			margin-top: 50px;
+			margin-left: 20px;
 		}
 		.pic{
 			height: 120px;
@@ -80,8 +83,46 @@
 			width:960px;
 			margin: auto;
 		}
-		.current{
+		.navi .current{
 			background-color: #595656;
+		}
+		.menu{
+			color : #5a5657;
+			font-size: 18px;
+			width:60px;
+			margin-top: 10px;
+			margin-left: 20px;
+			cursor: pointer;
+		}
+		.sub .current{
+			color:#000;
+		}
+		.corner{
+			float:right;
+			background: url("img/corner.png");
+			width:5px;
+			height: 5px;
+			top:10px;
+			position: relative;
+		}
+		.title{
+			
+			margin-left: 20px;
+		}
+		.box p{
+			line-height: 20px;
+			margin-left: 20px;
+			text-indent: 2em;
+		}
+		.seprator{
+			width:100%;
+			height: 1px;
+			border-bottom: 1px #595656 dashed;
+			float:left;
+			margin-left: 5px;
+		}
+		.box .first{
+			margin-top: 10px;
 		}
 	</style>
 </head>
@@ -92,8 +133,8 @@
 			<a class="english" href="#">English</a>
 			<div class="navi-wrap">
 				<div class="navi">
-					<a href="#" class="current">主 页</a>
-					<a href="#">关 于</a>
+					<a href="#">主 页</a>
+					<a href="#" class="current">关 于</a>
 					<a href="#">新 闻</a>
 					<a href="#">服 务</a>
 					<a href="#">项 目</a>
@@ -105,30 +146,21 @@
 		<div class="bd">        
 			<div class="main">        
                <div class="main-wrap">
-               		<div class="box"></div>
-               </div> 
+               		<div class="title">文化●Culture</div>
+               		<span class="seprator"></span>
+               		<div class="box">
+               			
+  					</div>
+               </div>
+              
 			</div>	        
 			<div class="sub">
-				<div class="state">
-					<ol><strong>快讯：</strong>
-						<li>中新佳联签约无锡凤凰山生态园城市设计</li>
-						<li>公司组织考察新加坡碧山公园等项目</li>
-					</ol>
-				</div>
-				<div class="pic-box">
-					<div class="line-pic line1">
-						<img class="pic" src="img/1.jpg"></img>
-						<img class="pic" src="img/2.jpg"></img>
-					</div>
-					<div class="line-pic line2">
-						<img class="pic" src="img/3.jpg"></img>
-						<img class="pic" src="img/4.jpg"></img>
-					</div>
-					<div class="line-pic line3">
-						<img class="pic" src="img/5.jpg"></img>
-						<img class="pic" src="img/6.jpg"></img>
-					</div>
-				</div>
+				<div class="menu current"><span>简 介</span><span class="corner"></span></div>
+				<div class="menu"><span>愿 景</span><span class="corner"></span></div>
+				<div class="menu"><span>奖 项</span><span class="corner"></span></div>
+				<div class="menu"><span>团 队</span><span class="corner"></span></div>
+				<div class="menu"><span>文 化</span><span class="corner"></span></div>
+				<div class="menu"><span>下 载</span><span class="corner"></span></div>
 			</div>
 		</div>
 		<div class="ft">
